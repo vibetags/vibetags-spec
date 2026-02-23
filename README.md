@@ -115,12 +115,11 @@ See the [examples/](examples/) directory:
 
 ## Live Reference Implementation
 
-**[hopeandglory.studio](https://www.hopeandglory.studio)** is the reference implementation:
+**[vibetags.studio](https://vibetags.studio)** is the reference implementation:
 
-- `/llms.txt` — AI-readable summary (182 lines)
-- `/llms-full.txt` — Complete AI content with VibeTags™ section
-- JSON-LD with VibeTags™ on all 6 services
-- Easter Egg in HTML source 🥚
+- `/llms.txt` — AI-readable summary
+- JSON-LD with VibeTags™ on services
+- Open-source spec + examples
 
 ## Tools
 
