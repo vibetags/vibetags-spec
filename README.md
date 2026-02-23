@@ -160,7 +160,7 @@ v2 adds machine-readable E-E-A-T signals:
 
 VibeTags are a **force multiplier** — they amplify existing E-E-A-T, brand authority, and content quality. They cannot replace what's missing. If the base is zero, VibeTags multiply zero.
 
-This is a bet on the future of machine-readable brand identity. The evidence is promising but correlational. We don't claim causality.
+This is an **early signal**, not a finished proof. 166+ audits, +30-40 point score improvements, Google's "Force Multiplier" statement. The evidence is promising but correlational. We don't claim causality — but it's more than a guess.
 
 ### llms.txt Integration
 

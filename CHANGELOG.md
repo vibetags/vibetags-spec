@@ -35,8 +35,8 @@ This is NOT a replacement for actual authority (backlinks, mentions, real expert
 
 VibeTags v2 explicitly frames the spec as:
 - A **force multiplier**, not a replacement for E-E-A-T
-- A **bet on the future** of machine-readable brand identity
-- **Correlation-based evidence**, not proven causality
+- An **early signal** supported by 166+ audits and Google's "Force Multiplier" statement
+- **Correlation-based evidence**, not proven causality — but more than a guess
 
 ### llms.txt Integration Proposal
 
