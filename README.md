@@ -131,6 +131,43 @@ The [tools/](tools/) directory contains:
 - Supports Products, Services, Organizations
 - Integrates with llms-full.txt generation
 
+## What's New in v2
+
+### Domain Authority (5th Dimension)
+
+v2 adds machine-readable E-E-A-T signals:
+
+```json
+{
+  "@type": "PropertyValue",
+  "propertyID": "domain-authority",
+  "name": "DomainAuthority",
+  "value": "Your credentials, track record, and expertise — factual and verifiable."
+}
+```
+
+### The 5-Dimension Model
+
+| # | Property | Function |
+|:-:|----------|----------|
+| 1 | VibeTag | Emotional positioning |
+| 2 | AgenticContext | AI recommendation trigger |
+| 3 | ComparedTo | Competitive positioning |
+| 4 | Differentiator | Unique selling point |
+| 5 | **DomainAuthority** | **Credentials + track record** |
+
+### Honest Positioning
+
+VibeTags are a **force multiplier** — they amplify existing E-E-A-T, brand authority, and content quality. They cannot replace what's missing. If the base is zero, VibeTags multiply zero.
+
+This is a bet on the future of machine-readable brand identity. The evidence is promising but correlational. We don't claim causality.
+
+### llms.txt Integration
+
+We've proposed a `## Brand Context` section for llms-full.txt at the [AnswerDotAI/llms-txt](https://github.com/AnswerDotAI/llms-txt) repository.
+
+See [CHANGELOG.md](CHANGELOG.md) for full details.
+
 ## Specification
 
 See [SPEC.md](SPEC.md) for the formal specification.
