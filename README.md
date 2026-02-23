@@ -7,9 +7,9 @@
 > Schema.org tells AI **WHAT** it is.  
 > llms.txt tells AI **WHERE** to find it.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+🌐 **[vibetags.studio](https://vibetags.studio)** — Official Website
 
----
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## The Problem
 
