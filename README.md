@@ -10,6 +10,8 @@
 🌐 **[vibetags.studio](https://vibetags.studio)** — Official Website
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Author: Sascha Deforth](https://img.shields.io/badge/Author-Sascha%20Deforth-blue.svg)](https://github.com/keepcalm-pixel)
+[![Hope & Glory Studio](https://img.shields.io/badge/by-Hope%20%26%20Glory%20Studio-black.svg)](https://www.hopeandglory.studio)
 
 ## The Problem
 
@@ -174,6 +176,8 @@ See [SPEC.md](SPEC.md) for the proposed standard.
 ## Credits
 
 Created by **[Sascha Deforth](https://www.linkedin.com/in/deforth/)** at [Hope & Glory Studio](https://www.hopeandglory.studio).
+
+- 🔗 [GitHub](https://github.com/keepcalm-pixel) · [LinkedIn](https://www.linkedin.com/in/deforth/) · [Website](https://www.hopeandglory.studio)
 
 Built on top of:
 - [llms.txt](https://llmstxt.org) by Jeremy Howard
