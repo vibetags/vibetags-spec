@@ -1,4 +1,4 @@
-# VibeTags™ & AgenticContext™ — Formal Specification v2.0
+# VibeTags™ & AgenticContext™ — Proposed Standard v2.0
 
 **Status:** Draft
 **Version:** 2.0

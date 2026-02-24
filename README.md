@@ -169,7 +169,7 @@ See [CHANGELOG.md](CHANGELOG.md) for full details.
 
 ## Specification
 
-See [SPEC.md](SPEC.md) for the formal specification.
+See [SPEC.md](SPEC.md) for the proposed standard.
 
 ## Credits
 
