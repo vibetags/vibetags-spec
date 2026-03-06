@@ -59,7 +59,7 @@ Both are implemented as standard Schema.org `PropertyValue` objects in `addition
 {
   "@context": "https://schema.org",
   "@type": "Service",
-  "name": "GEO-Optimierung",
+  "name": "GEO Optimization",
   "additionalProperty": [
     {
       "@type": "PropertyValue",
