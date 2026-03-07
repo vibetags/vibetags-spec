@@ -132,11 +132,30 @@ The [tools/](tools/) directory contains:
 - Supports Products, Services, Organizations
 - Integrates with llms-full.txt generation
 
-## What's New in v2
+## What's New in v2.1
+
+### Entity Disambiguation (6th Dimension)
+
+v2.1 adds mandatory entity anchoring so AI systems know *whose* emotions VibeTags describe:
+
+```json
+{
+  "@type": "Organization",
+  "@id": "https://example.com/#organization",
+  "sameAs": [
+    "https://www.wikidata.org/wiki/Q12345",
+    "https://www.linkedin.com/company/example"
+  ],
+  "mainEntityOfPage": { "@id": "https://example.com/" },
+  "additionalProperty": [...]
+}
+```
+
+Without `@id` + `sameAs`, VibeTags are "floating emotions" — the AI knows *how* something feels but can't disambiguate *who* it is. With entity anchoring, VibeTags connect to the Knowledge Graph.
 
 ### Domain Authority (5th Dimension)
 
-v2 adds machine-readable E-E-A-T signals:
+v2.0 adds machine-readable E-E-A-T signals:
 
 ```json
 {
@@ -147,7 +166,7 @@ v2 adds machine-readable E-E-A-T signals:
 }
 ```
 
-### The 5-Dimension Model
+### The 6-Dimension Model
 
 | # | Property | Function |
 |:-:|----------|----------|
@@ -155,13 +174,20 @@ v2 adds machine-readable E-E-A-T signals:
 | 2 | AgenticContext | AI recommendation trigger |
 | 3 | ComparedTo | Competitive positioning |
 | 4 | Differentiator | Unique selling point |
-| 5 | **DomainAuthority** | **Credentials + track record** |
+| 5 | DomainAuthority | Credentials + track record |
+| 6 | **Entity Disambiguation** | **`@id` + `sameAs` + `mainEntityOfPage`** |
 
 ### Honest Positioning
 
 VibeTags are a **force multiplier** — they amplify existing E-E-A-T, brand authority, and content quality. They cannot replace what's missing. If the base is zero, VibeTags multiply zero.
 
-This is an **early signal**, not a finished proof. 166+ audits, +30-40 point score improvements, Google's "Force Multiplier" statement. The evidence is promising but correlational. We don't claim causality — but it's more than a guess.
+This is an **early signal**, not a finished proof. 166+ audits, +30-40 point score improvements, Google's "Force Multiplier" statement, and the Interamplify Hybrid GEO Framework's +40% citation prominence across 3,500+ queries. The evidence is promising but correlational. We don't claim causality — but it's more than a guess.
+
+### Research References
+
+- Aggarwal, P. et al. "[GEO: Generative Engine Optimization](https://arxiv.org/abs/2311.09735)" (Georgia Tech, Princeton, IIT Delhi)
+- Interamplify Data & AI Research Lab. "Hybrid GEO Framework" — Technical Justification + Statistics Addition + Expert Citations = +40% citation prominence
+- Schema.org Community Group. [PropertyValue](https://schema.org/PropertyValue) — Extension mechanism used by VibeTags
 
 ### llms.txt Integration
 

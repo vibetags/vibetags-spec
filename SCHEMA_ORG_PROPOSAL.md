@@ -51,4 +51,3 @@ Non-breaking extension. Both properties are optional.
 ## Reference
 
 - Open-source spec + implementation: [vibetags/vibetags-spec](https://github.com/vibetags/vibetags-spec) (MIT)
-- Related: [#2490](https://github.com/schemaorg/schemaorg/issues/2490) (`speakable`), [#3423](https://github.com/schemaorg/schemaorg/issues/3423) (`colorSwatch`)
