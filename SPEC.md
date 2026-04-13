@@ -1,8 +1,8 @@
-# VibeTags™ & AgenticContext™ — Proposed Standard v2.1
+# VibeTags™ & AgenticContext™ — Proposed Standard v2.2
 
 **Status:** Draft
-**Version:** 2.1
-**Date:** March 2026
+**Version:** 2.2
+**Date:** April 2026
 **Authors:** Sascha Deforth (Hope & Glory Studio)
 
 ---
@@ -157,7 +157,7 @@ Generative AI engines are vulnerable to **Entity Ambiguity** (semantic drift). W
 ## 7. Discovery
 Sites implementing VibeTags SHOULD include the following meta tags in `<head>`:
 ```html
-<meta name="vibetags-version" content="2.1">
+<meta name="vibetags-version" content="2.2">
 <meta name="vibetags-spec" content="https://github.com/vibetags/vibetags-spec">
 ```
 
@@ -179,17 +179,53 @@ This specification is a **force multiplier**, not a silver bullet:
 - VibeTags amplify existing E-E-A-T, brand authority, and content quality
 - They CANNOT replace what's missing — if the base is zero, the result is zero
 - Evidence for impact is correlation-based, not proven causality
-- 166+ audits show early signals: +30-40 point score improvements when emotional context is added to structured data
+- 200+ audits show early signals: +30-40 point score improvements when emotional context is added to structured data
 - Google officially calls structured data a "Force Multiplier" for AI Overviews
 - The Interamplify Hybrid GEO Framework demonstrated +40% citation prominence through Technical Justification, Statistics Addition, and Expert Citations across 3,500+ queries
 - This is an **early signal**, not a finished proof — but it's more than a guess
 
-## 10. References
+## 11. Security Considerations *(v2.2)*
+
+> **Forensic Evidence: Canary Token Experiment, April 2026**
+
+Controlled experiments on arp-protocol.org using a unique diagnostic token (`ARP-CANARY-DOGFOOD-2026Q2`) across four delivery layers revealed critical security boundaries in all three frontier AI platforms.
+
+### 11.1 Deprecated: sr-only Delivery Layer
+
+All three major AI platforms aggressively strip hidden DOM elements as a defense against **Indirect Prompt Injection**:
+
+| Platform | Parser | sr-only Behavior | JSON-LD Behavior |
+|---|---|---|---|
+| **ChatGPT** | ScreenAI + Readability.js | ❌ Stripped | ✅ Parsed via Code Interpreter |
+| **Perplexity** | Trafilatura + Playwright | ❌ Stripped | ❌ `<script>` tags removed |
+| **Gemini** | WRS + Vision-LLM | ❌ Stripped | ✅ Strong Knowledge Graph integration |
+
+**Conclusion:** The sr-only delivery layer (previously Layer 3 in v2.0) is **permanently deprecated**. It delivers zero AI visibility across all tested platforms.
+
+### 11.2 Recommended Delivery Model (2-Layer)
+
+VibeTags implementations SHOULD use exactly two delivery layers:
+
+1. **Layer 1: JSON-LD** — Primary structured data channel (ChatGPT + Gemini)
+2. **Layer 2: Visible HTML** — Human-readable brand context (all platforms)
+
+Previous layers (Meta Tags, Microdata, sr-only Spans) are NOT RECOMMENDED as primary delivery mechanisms.
+
+### 11.3 Content Architecture Rules
+
+Based on per-platform truncation behavior:
+
+- **Inverted Pyramid:** Place elevator pitch + VibeTags in the first 2,000 words
+- **Redundancy at End:** Repeat key brand identity in the final section (defends against ChatGPT Split-Truncation)
+- **Tables over Prose:** Gemini’s Vision-LLM prioritizes `<table>` elements for structured extraction
+- **FCP < 0.4s:** Sites with fast First Contentful Paint receive 300% more ChatGPT citations
+
+## 12. References
 
 - Aggarwal, P. et al. (2023). "GEO: Generative Engine Optimization." [arXiv:2311.09735](https://arxiv.org/abs/2311.09735) — Original GEO research (Georgia Tech, Princeton, IIT Delhi)
 - Interamplify Data & AI Research Lab. "Hybrid GEO Framework." — 3,500+ query analysis, +40% citation prominence
 - Schema.org Community Group. [PropertyValue](https://schema.org/PropertyValue) — Extension mechanism used by VibeTags
 - Howard, J. "llms.txt." [llmstxt.org](https://llmstxt.org) — LLM-readable site summaries
 
-## 11. License
+## 13. License
 This specification is published under the MIT license.
