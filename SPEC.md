@@ -179,9 +179,10 @@ This specification is a **force multiplier**, not a silver bullet:
 - VibeTags amplify existing E-E-A-T, brand authority, and content quality
 - They CANNOT replace what's missing — if the base is zero, the result is zero
 - Evidence for impact is correlation-based, not proven causality
-- 200+ audits show early signals: +30-40 point score improvements when emotional context is added to structured data
+- 200+ audits show early signals: +30-40 point score improvements when emotional context is added to structured data (measured via TrueSource GEO Methodology)
 - Google officially calls structured data a "Force Multiplier" for AI Overviews
-- The Interamplify Hybrid GEO Framework demonstrated +40% citation prominence through Technical Justification, Statistics Addition, and Expert Citations across 3,500+ queries
+- The Princeton GEO study (KDD 2024) measured +28-41% visibility lift for citation-enrichment tactics on a 10,000-query benchmark
+- Pages with comprehensive schema markup are 3× more likely to appear in Google AI Overviews (BrightEdge, 2025)
 - This is an **early signal**, not a finished proof — but it's more than a guess
 
 ## 11. Security Considerations *(v2.2)*
@@ -222,10 +223,22 @@ Based on per-platform truncation behavior:
 
 ## 12. References
 
-- Aggarwal, P. et al. (2023). "GEO: Generative Engine Optimization." [arXiv:2311.09735](https://arxiv.org/abs/2311.09735) — Original GEO research (Georgia Tech, Princeton, IIT Delhi)
-- Interamplify Data & AI Research Lab. "Hybrid GEO Framework." — 3,500+ query analysis, +40% citation prominence
-- Schema.org Community Group. [PropertyValue](https://schema.org/PropertyValue) — Extension mechanism used by VibeTags
-- Howard, J. "llms.txt." [llmstxt.org](https://llmstxt.org) — LLM-readable site summaries
+**Peer-Reviewed:**
+- Aggarwal, P., Murahari, V., Rajpurohit, T., Kalyan, A., Narasimhan, K., & Deshpande, A. (2024). "[GEO: Generative Engine Optimization](https://arxiv.org/abs/2311.09735)." Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD '24), Barcelona.
+
+**Industry Forecasts:**
+- Gartner. "Predicts 2024: How GenAI Will Reshape Tech Marketing" (February 2024). 25% decline in traditional search volume by 2026.
+- Conductor. 2026 AI Search Benchmarks (March 2026). 25.11% AI Overview penetration across 21.9M queries analyzed.
+- Deloitte. Tech Trends 2026 Update (February 2026). AI platforms drive 6.5% of organic traffic, projected to 14.5% within 12 months.
+
+**Schema & AI Citations:**
+- BrightEdge. AI Overview Citation Analysis (2025). 3× citation rate for pages with comprehensive schema; 44% citation increase with structured data + FAQ blocks.
+- Canel, F. (Microsoft Bing). SMX Munich, March 2025. Official confirmation that schema markup helps Bing's LLMs understand web content.
+- Google Developers. "Top ways to ensure your content performs well in Google's AI search" (2025). Official guidance recommending JSON-LD.
+
+**Foundational Standards:**
+- Howard, J. [llms.txt](https://llmstxt.org) — AI-readable content standard.
+- Schema.org Community Group. [PropertyValue](https://schema.org/PropertyValue) — Extension mechanism used by VibeTags.
 
 ## 13. License
 This specification is published under the MIT license.

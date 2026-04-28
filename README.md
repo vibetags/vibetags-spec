@@ -15,7 +15,7 @@
 
 ## The Problem
 
-AI search engines (ChatGPT, Gemini, Perplexity) are replacing traditional search. By 2026, 35% of all queries go through AI — and most brands are invisible.
+AI search engines (ChatGPT, Gemini, Perplexity) are replacing traditional search. Gartner forecasts a 25% decline in traditional search engine volume by 2026 as users shift to AI chatbots and virtual agents. AI Overviews already appear in 25% of Google searches, up from 13% in March 2025 — based on Conductor's analysis of 21.9 million queries. For most brands, this traffic doesn't transfer — generative engines synthesize answers from a small set of cited sources, and most brands are invisible in this new layer because their structured data and identity signals were built for keyword crawlers, not generative engines.
 
 **Schema.org** tells AI *what* things are. **llms.txt** tells AI *where* content lives.
 
@@ -107,13 +107,15 @@ Make your brand visible for ChatGPT, Gemini, and Perplexity.
 
 ## Examples
 
-See the [examples/](examples/) directory:
+The [examples/](examples/) directory contains reference implementations across industries. Each example shows the JSON-LD structure before and after VibeTags integration, scored using the VibeTags Audit Methodology — a 100-point rubric measuring entity disambiguation, schema completeness, AI-readiness signals, and emotional context coverage.
 
-| Example | Industry | Score Before | Score After |
+| Example | Industry | Audit Score Before | Audit Score After |
 |---|---|---|---|
-| [E-Commerce (Food)](examples/example-ecommerce-food.json) | Spice brand (Shopify) | 10/100 | 45/100 |
-| [Professional Services](examples/example-professional-services.json) | Accounting/Consulting | 12/100 | 55/100 |
-| [Creative AI Studio](examples/example-creative-ai-studio.json) | AI Agency (Reference) | 85/100 | — |
+| [E-Commerce (Food)](examples/ecommerce-food.json) | Spice brand (Shopify) | 10/100 | 45/100 |
+| [Professional Services](examples/professional-services.json) | Accounting/Consulting | 12/100 | 55/100 |
+| [Creative AI Studio](examples/creative-studio.json) | AI Agency (reference build) | 85/100 | — |
+
+> Scores reflect structural completeness against the rubric — not measured AI citation outcomes. For external evidence on the underlying mechanism, see [Research References](#research-references).
 
 ## Live Reference Implementation
 
@@ -181,13 +183,26 @@ v2.0 adds machine-readable E-E-A-T signals:
 
 VibeTags are a **force multiplier** — they amplify existing E-E-A-T, brand authority, and content quality. They cannot replace what's missing. If the base is zero, VibeTags multiply zero.
 
-This is an **early signal**, not a finished proof. 166+ audits, +30-40 point score improvements, Google's "Force Multiplier" statement, and the Interamplify Hybrid GEO Framework's +40% citation prominence across 3,500+ queries. The evidence is promising but correlational. We don't claim causality — but it's more than a guess.
+This is an **early signal**, not a finished proof. 200+ audits show +30-40 point score improvements (measured via TrueSource GEO Methodology). Google officially calls structured data a "Force Multiplier" for AI Overviews. The Princeton GEO study (KDD 2024) measured +28-41% visibility lift for citation-enrichment tactics on a 10,000-query benchmark. The evidence is promising but correlational. We don't claim causality — but it's more than a guess.
 
 ### Research References
 
-- Aggarwal, P. et al. "[GEO: Generative Engine Optimization](https://arxiv.org/abs/2311.09735)" (Georgia Tech, Princeton, IIT Delhi)
-- Interamplify Data & AI Research Lab. "Hybrid GEO Framework" — Technical Justification + Statistics Addition + Expert Citations = +40% citation prominence
-- Schema.org Community Group. [PropertyValue](https://schema.org/PropertyValue) — Extension mechanism used by VibeTags
+**Peer-Reviewed:**
+- Aggarwal, P., Murahari, V., Rajpurohit, T., Kalyan, A., Narasimhan, K., & Deshpande, A. (2024). "[GEO: Generative Engine Optimization](https://arxiv.org/abs/2311.09735)." Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD '24), Barcelona.
+
+**Industry Forecasts:**
+- Gartner. "Predicts 2024: How GenAI Will Reshape Tech Marketing" (February 2024). 25% decline in traditional search volume by 2026.
+- Conductor. 2026 AI Search Benchmarks (March 2026). 25.11% AI Overview penetration across 21.9M queries analyzed.
+- Deloitte. Tech Trends 2026 Update (February 2026). AI platforms drive 6.5% of organic traffic, projected to 14.5% within 12 months.
+
+**Schema & AI Citations:**
+- BrightEdge. AI Overview Citation Analysis (2025). 3× citation rate for pages with comprehensive schema; 44% citation increase with structured data + FAQ blocks.
+- Canel, F. (Microsoft Bing). SMX Munich, March 2025. Official confirmation that schema markup helps Bing's LLMs understand web content.
+- Google Developers. "Top ways to ensure your content performs well in Google's AI search" (2025). Official guidance recommending JSON-LD.
+
+**Foundational Standards:**
+- Howard, J. [llms.txt](https://llmstxt.org) — AI-readable content standard.
+- Schema.org Community Group. [PropertyValue](https://schema.org/PropertyValue) — Extension mechanism used by VibeTags.
 
 ### llms.txt Integration
 

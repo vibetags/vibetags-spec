@@ -1,5 +1,24 @@
 # Changelog
 
+## v2.3 — 2026-04-28
+
+### Credibility Hardening
+
+Replaced unsubstantiated market claims with verifiable, source-backed data across README and SPEC.
+
+- **35% claim removed** — replaced with Gartner (25% decline in traditional search by 2026) and Conductor (25.11% AI Overview penetration across 21.9M queries)
+- **Examples table hardened** — added methodology transparency ("VibeTags Audit Methodology" rubric), corrected file links, added disclaimer distinguishing audit scores from AI citation outcomes
+- **Research References consolidated** — full academic citations (KDD 2024), industry forecasts (Gartner, Conductor, Deloitte), schema studies (BrightEdge 3× citation rate, Microsoft SMX confirmation)
+- **SPEC.md updated** — Honest Positioning now cites Princeton GEO study (+28-41% visibility lift) and BrightEdge (3× schema citation rate); References section expanded with categorized sources
+- **Audit count updated** — 166+ → 200+ across all documents
+- **Interamplify reference removed** — replaced with peer-reviewed KDD 2024 data as primary external evidence
+
+### Rationale
+
+The previous claims (especially "35% of queries go through AI by 2026") were not defensible under scrutiny. The replacement data uses named external authorities (Gartner, Conductor, BrightEdge, Microsoft) with documented methodologies and sample sizes. Internal audit scores are now clearly separated from peer-reviewed externals throughout.
+
+---
+
 ## v2.1 — 2026-03-07
 
 ### New: Entity Disambiguation (6th Dimension)
