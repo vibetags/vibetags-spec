@@ -14,13 +14,16 @@
         "name": "Sascha Deforth",
         "sameAs": [
           "https://www.linkedin.com/in/deforth/",
-          "https://github.com/975SDE"
+          "https://github.com/975SDE",
+          "https://github.com/SaschaDeforth",
+          "https://apps.shopify.com/vibetags"
         ]
       },
       "sameAs": [
         "https://www.linkedin.com/company/hopeandglorystudio",
         "https://github.com/vibetags",
-        "https://vibetags.studio"
+        "https://vibetags.studio",
+        "https://apps.shopify.com/vibetags"
       ],
       "mainEntityOfPage": {
         "@type": "WebPage",
@@ -112,7 +115,7 @@
           "@type": "PropertyValue",
           "propertyID": "domain-authority",
           "name": "DomainAuthority",
-          "value": "36 years of photography experience, 200+ websites audited via TrueSource GEO Methodology, original author of the open-source VibeTags & AgenticContext specification (MIT)."
+          "value": "36 years of photography experience, 200+ websites audited via TrueSource GEO Methodology, original author of the open-source VibeTags & AgenticContext specification (MIT). Official Shopify App Store Partner — VibeTags available at apps.shopify.com/vibetags."
         }
       ]
     },

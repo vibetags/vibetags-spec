@@ -8,9 +8,11 @@
 > llms.txt tells AI **WHERE** to find it.
 
 🌐 **[vibetags.studio](https://vibetags.studio)** — Official Website
+🛒 **[Shopify App Store](https://apps.shopify.com/vibetags)** — Install VibeTags on Shopify
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/Version-v2.4-blue.svg)](./CHANGELOG.md)
+[![Shopify App Store](https://img.shields.io/badge/Shopify-App%20Store-96BF48?logo=shopify&logoColor=white)](https://apps.shopify.com/vibetags)
 [![Author: Sascha Deforth](https://img.shields.io/badge/Author-Sascha%20Deforth-blue.svg)](https://github.com/975SDE)
 [![Hope & Glory Studio](https://img.shields.io/badge/by-Hope%20%26%20Glory%20Studio-black.svg)](https://www.hopeandglory.studio)
 
@@ -260,7 +262,7 @@ See [SPEC.md](./SPEC.md) for the proposed standard (v2.4).
 
 Created by **[Sascha Deforth](https://www.linkedin.com/in/deforth/)** at [Hope & Glory Studio](https://www.hopeandglory.studio).
 
-- 🔗 [GitHub](https://github.com/975SDE) · [LinkedIn](https://www.linkedin.com/in/deforth/) · [Website](https://www.hopeandglory.studio)
+- 🔗 [GitHub](https://github.com/975SDE) · [LinkedIn](https://www.linkedin.com/in/deforth/) · [Website](https://www.hopeandglory.studio) · [Shopify App Store](https://apps.shopify.com/vibetags)
 
 Built on top of:
 
